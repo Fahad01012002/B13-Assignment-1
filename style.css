@@ -6,6 +6,48 @@
 
 /* Shared style */
 
-body{
-    
+.btn{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding: 12px 16px;
+    background-color: #30B868;
+    border: none;
+    border-radius: 4px;
 }
+
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Main Style */
+header{
+    border: 1px solid red;
+}
+nav{
+    width: 81%;
+    max-width: 1370px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px auto;
+    border: 1px solid red;
+}
+
+.logo img{
+    width: 140px;
+}
+
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+}
+
+.menu ul li a{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+

@@ -68,6 +68,7 @@ nav {
 }
 
 .Banner .banner-content{
+    width: 81%;
     max-width: 1370px;
     text-align: center;
     color: white;
@@ -128,5 +129,59 @@ nav {
 .btn-2:hover{
     background: #ffffff22;
     transition: 0.3s;
+}
+
+.card-section{
+    width: 81%;
+    max-width: 1370px;
+    margin: 70px auto 0;
+}
+
+.section-heading{
+    text-align: center;
+}
+
+.section-heading h2{
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.section-heading p{
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+
+.card-description{
+    display: flex;
+    gap: 24px;
+}
+
+.card{
+    max-width: 322px;
+    padding: 24px;
+    text-align: center;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.252);
+}
+
+.card img{
+    background-color: #F95555;
+    margin-top: 69px;
+    padding: 9px;
+    border-radius: 50%;
+}
+
+.card h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.card p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
 }
 
